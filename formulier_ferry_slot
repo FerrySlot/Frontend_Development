@@ -34,15 +34,14 @@
 						<br><input type="text" id="bedrijf"><br><br>
 						<label for="adres">Adres:</label>
 						<br><input type="text" id="adres">
-						<input type="number" pattern="[0-9]{10}"/> <br><br>
+						<input type="number" /> <br><br>
 						<label for="postcode">Postcode</label>
-						<br>
-						<input type="number" pattern="[0-9]{4}" placeholder="4 nummers"/> 
-						<input type="text" pattern="[A-Z]{2}" placeholder="2 letters"/><br><br>
+						<br><input type="number" id="postcode" placeholder="4 nummers"/> 
+						<input type="text"  placeholder="2 letters"/><br><br>
 						<label for="plaats">Plaats:</label>
 						<br><input type="text" id="plaats"><br><br>
 						<label for="telefoon">Telefoon:</label>
-						<br><input type="tel" pattern="[0-9]{20}" id="telefoon"><br><br>
+						<br><input type="tel" id="telefoon"><br><br>
 						<label for="mail">Mail</label>
 						<br><input type="email" id="mail"><br><br>
 					Ik wil mijn aanmelden:<br>
@@ -119,7 +118,7 @@
 							</fieldset>
 						</fieldset>
 						<input type="submit" value="submitform">
-					</p>
+					
 				</fieldset>
 
 			</form>
